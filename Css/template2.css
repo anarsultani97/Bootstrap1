@@ -1,0 +1,367 @@
+.b{
+border: 1px solid black;
+
+}
+
+#all{
+	width: 100%;
+	text-align: center;
+	font-family: 'Varela Round','sans-serif'
+}
+	
+.black{
+	color:black;
+}
+.floatLeft{
+	float: left;
+}
+
+#header{
+	height: 800px;
+}
+
+#portfolio{
+	background-color: #f3f5f8;
+	min-height: 400px;
+}
+
+#love{
+	min-height: 720px;
+}
+#iphone{
+min-height: 700px;
+}
+#plant{
+	min-height: 315px;
+}
+#creative{
+	min-height: 680px;
+}
+#ignite{
+	min-height: 210px;
+}
+#team{
+	min-height: 880px;
+}
+#send{
+	min-height: 445px;
+}
+#contact{
+min-height: 610px;
+background-color: #f3f5f8;
+}
+#footer{
+	min-height: 120px;
+	background-color: #242830;
+    padding: 40px 0 30px;
+}
+
+.ara100{
+	min-height: 100px;
+	width: 100%;
+}
+
+.ara130{
+	min-height: 130px;
+	width: 100%;
+}
+
+.mrg-top50{
+	margin-top:60px;
+}
+
+.mrg-bottom40{
+	margin-bottom: 40px;
+}
+.mrg-bottom75{
+	margin-bottom: 75px;
+}
+.mrg-left10{
+	margin-left: 10px;
+}
+.center{
+	text-align: center;
+}
+/*------------------ #HALCYON---------------- */
+.halcyon-jpg{
+	background:url(../photo3/01.jpg) no-repeat;
+	height: 100%;
+}
+
+span{
+	color:#a1a9b0;
+}
+
+.halcyon{
+position: relative;
+top: 38%;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 12px;
+    margin: 10px;
+    display: block;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    }
+    p {
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.button{
+	background: rgba(61, 201, 179, 1);
+    padding: 20px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0px 3px 0px 0px #309383;
+}
+
+.button:hover{
+  	opacity: .8; 	
+    text-decoration: none;
+}
+
+h1.arrow{
+	font-size: 15px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 1px;
+    background: url('../photo3/h1-bg.png') no-repeat center bottom;
+    padding: 0px 15px 30px 0px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -10px;
+}
+h2{
+	font-size: 14px;
+    color: #000018;
+    text-transform: uppercase;
+    font-weight: bold;
+   	display: block;
+   text-align: center;
+}
+
+.fa-laptop{
+	font-size: 5em;
+	padding: 50px;
+	background: #3dc9b3;
+	color: white;
+	border-radius: 100%;
+	text-shadow: 5px 3px lightgray;
+	margin-bottom: 25px;
+}
+.fa-code{
+	font-size: 5em;
+	padding: 50px;
+	background: #3dc9b3;
+	color: white;
+	border-radius: 100%;
+	text-shadow: 5px 3px lightgray;
+	margin-bottom: 25px;
+}
+.fa-heart{
+	font-size: 5em;
+	padding: 50px;
+	background: #3dc9b3;
+	color: white;
+	border-radius: 100%;
+	text-shadow: 5px 3px lightgray;
+	margin-bottom: 25px;
+}
+.iphone-png{
+	background:url(../photo3/iphone-bg.png) no-repeat;
+	min-height:720px; 
+	background-position-x:192px; 
+}
+/*---------------------Plant----------------------*/
+#plant{
+	background: url(../photo3/plants-bg.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 315px;
+	width: 100%;
+	padding: 50px 0;
+	overflow: hidden;
+}
+#plant h1{
+color: #fff;
+font-size: 40px;
+text-transform: uppercase;
+letter-spacing: 5px;
+text-align: center;
+margin-top: 25px; 
+}
+#plant h1 span{
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #fffff9;
+}
+/*-------------Portfolio-------------*/
+.img{
+
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 365px;
+    height: 220px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.img img{
+	width: 375px;
+	height: 220px;
+}
+/*----------Ignite---------*/
+#ignite{
+	background: black;
+	padding:70px 0;
+}
+
+.ignite-btn{
+	display: inline-block;
+    padding: 25px 40px;
+    color: #fff;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.ignite-btn:hover{
+	text-decoration: none;
+}
+/*--------------------Team----------*/
+#team img{
+	width: 202px;
+	height: 220px;
+}
+.social {
+    margin-top: 25px;
+}
+ul.social-buttons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background: #242830;
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+}
+ul .slides li{
+	    margin-bottom: 20px;
+	}
+ul.social-buttons li { 
+	display: inline-block; margin-right: 10px; 
+}
+ul.social-buttons li:last-child { 
+margin-right: 0; 
+}
+/*-------------Send------------*/
+#send{
+
+	background: url(../photo3/keyboard-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 120px 0 140px;
+	background-position-y: -225px; 
+	text-align: center;
+}
+#send h1 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+form{
+	margin: 0;
+}
+#send input[type=text] {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px #fff;
+    padding: 20px;
+    width: 30%;
+    color: #fff;
+}
+#send input[type=submit] {
+    background: rgba(61, 201, 179, 0.5);
+    border: solid 1px rgba(61, 201, 179, 0.5);
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+ #send h1 span {
+   color: #ffffed;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+/*------------Contact---------*/
+.address{
+	background-color:#fff;
+	box-shadow: 0px 3px 0px 0px #f0f2f4;
+    padding: 20px 0;
+} 
+.details{
+	margin: 70px 0;
+}
+.details h2 {
+    font-size: 20px;
+}
+.details h2 span{
+	display: block;
+    color: #3dc9b3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+#contact h1.arrow{
+	margin-left: 1px;
+}
+.address span{
+	margin-bottom: 50px;
+}
+/*----------------Footer------------*/
+ul.terms{
+	text-decoration: none;
+	color: #fff;
+	line-height: 25;
+}
+.terms{
+	text-align: left;
+}
+#footer a{
+	color: #a1a9b0;
+}
+.right{
+	text-align: right;
+
+}
+.left{
+	
+	text-align: left;
+}
